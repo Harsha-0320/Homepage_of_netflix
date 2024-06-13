@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*body{background: black;}*/
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(3,6,20,0.6),rgba(0, 0, 0, 0.9)),url(https://i.pinimg.com/originals/d4/b6/b9/d4b6b92053394c97462698e16536834b.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#nav-bar{
+    background: transparent;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    width: 158px;
+    height: 45px;
+    padding-left: 11%;
+    padding-top: 2.0%;
+}
+
+.val{
+    display: block;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    padding: 8px;
+    font-size: medium;
+    width: 110px;
+    height: 40px;
+    text-align: justify;
+    font-family: "PT Sans";
+}
+
+.val:hover{
+    border: 2px solid white;
+}
+
+.val:active{
+    border: 2px solid white;
+}
+
+#nav{
+    display: inline-block;
+    padding-top: 2.0%;
+    padding-left: 52%;
+}
+
+#sign{
+    width: 90px;
+    height: 40px;
+    background: red;
+    color: white;
+    padding: 8px;
+    margin-top: 2.0%;
+    margin-right: 11%;
+    border: 0;
+    border-radius: 10px;
+    font-family: "PT Sans";
+    font-size: 15px;
+}
+
+#sign:hover{
+    background: rgb(182, 5, 5);
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: "PT Sans";
+}
+
+.text-box h1{
+    font-size: 50px;
+    font-family: "Archivo Black";
+}
+
+.text-box h4{
+    font-size: 30px;
+    font-family: "PT Sans";
+    padding: 10px;
+    text-align: center;
+}
+
+.text-box p{
+    font-size: 20px;
+    font-family: "PT Sans";
+    padding: 18px;
+}
+
+#gmail{
+    width: 400px;
+    height: 50px;
+    padding-left: 15px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(3,6,20,0.6));
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#gmail:hover{
+    border: 2px solid white;
+}
+
+#gmail:active{
+    border: 2px solid white;
+}
+
+#started{
+    background: red;
+    color: white;
+    font-size: 20px;
+    font-family: "PT Sans";
+    width: 150px;
+    height: 50px;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#started:hover{
+    background: rgb(182, 5, 5);;
+}
+
+.banner2{
+    background: black;
+    width: 100%;
+    height: 500px;
+    border-top: 7px solid rgb(53, 53, 53);
+    border-bottom: 7px solid rgb(53, 53, 53);
+}
+
+#tv{
+    width: 500px;
+    height: 350px;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 60%;
+}
+
+.banner2 h1{
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 25%;
+    padding-bottom: 35%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Archivo Black";
+}
+
+.banner2 h4{
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 55%;
+    padding-bottom: 25%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-size: 25px;
+    font-family: "PT Sans";
+    line-height: 40px;
+
+}
+
+.banner3{
+    width: 100%;
+    height: 500px;
+    background: black;
+    border-bottom: 7px solid rgb(53, 53, 53);
+    overflow: hidden;
+}
+
+.banner3 #mob{
+    padding-left: 9%;
+    padding-bottom: 10%;
+    width: 600px;
+    height: 450px;
+}
+
+.banner3 h1{
+    width: 90%;
+    color: white;
+    position: absolute;
+    padding-left: 200%;
+    padding-bottom: 64%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-size: 50px;
+    font-family: "Archivo Black";
+}
+
+.banner3 h4{
+    width: 90%;
+    color: white;
+    position: absolute;
+    padding-left: 200%;
+    padding-bottom: 48%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-size: 25px;
+    font-family: "PT Sans";
+    line-height: 40px;
+}
+
+.banner4{
+    width: 100%;
+    height: 500px;
+    background: black;
+    overflow: hidden;
+    border-bottom: 7px solid rgb(53, 53, 53);
+}
+
+.banner4 #any{
+    width: 500px;
+    height: 400px;
+    padding-left: 60%;
+    padding-top: 1.8%;
+}
+
+.banner4 h1{
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 25%;
+    bottom: -1250px;
+    padding-left: 4.5%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Archivo Black";
+}
+
+.banner4 h4{
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 55%;
+    padding-bottom: 25%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-size: 25px;
+    font-family: "PT Sans";
+    line-height: 40px;
+
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.media-icons a{
+    position: relative;
+    color: red;
+    font-size: 25px;
+    transition: 0.3s;
+    padding-bottom: 25px;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0;
+    overflow: hidden;
+    background: black;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    font-size: medium;
+    font-family: 'Cinzel';
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.icons .fa{
+    color: red;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+    overflow: hidden;
+
+}
+
+.fa-heart-o{
+    color: red;
+    overflow: hidden;
+
+}
+
+.footer a{
+    color: white;
+}
